@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #4a2319;
+    color: #fff;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: #421d13;
+    align-items: center;
+}
+
+.navbar a {
+    margin-left: 20px;
+    color: #f8c27b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo {
+    color: #f8c27b;
+}
+
+.titulo {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    max-width: 1100px;
+    margin: auto;
+    gap: 30px;
+    padding: 20px;
+}
+
+
+.infos {
+    width: 40%;
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+    background: #2c1611;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.formulario {
+    width: 60%;
+    background: #381912;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 12px;
+}
+
+form input, textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #502d24;
+    color: #fff;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    background: #f8c27b;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.mapa {
+    max-width: 1100px;
+    margin: 40px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #5d2b1f;
+    margin-top: 20px;
+}
